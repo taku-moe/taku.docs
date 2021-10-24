@@ -42,4 +42,4 @@ Verify that you have and can do all these steps
   }
   ```
 - Run `npm run prod` again to startup your guild
-- If no errors happen then you should see your guild online on [taku.moe](https://taku.moe) otherwise please report the errors on the github issues [taku.server Issues](https://github.com/taku-moe/taku.server/issues)
+- If no errors happen then you should see your guild online on [taku.moe](https://taku.moe) otherwise please report the errors on the [Github Issues](https://github.com/taku-moe/taku.server/issues)
