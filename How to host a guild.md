@@ -27,7 +27,9 @@ Verify that you have and can do all these steps
     "ip": "", 
     // The URL to your mongodb (it can be left as default 
     // if the database is hosted on the same machine)
-    "database_url": "mongodb://localhost:27017/taku",
+    // use 127.0.0.1 instead of localhost because on 
+    // some machines that doesn't work apparently
+    "database_url": "mongodb://127.0.0.1:27017/taku",
     // The port you want the server to run on
     "port": 9669,
     // This is the enduser hostname clients will use to access your server
@@ -38,7 +40,10 @@ Verify that you have and can do all these steps
     "use_internal_db": true,
     // This is your AUTH_KEY that you will get from taku.moe
     // when creating a new guild
-    "auth_key": "<YOUR_AUTH_KEY>"
+    "auth_key": "<YOUR_AUTH_KEY>",
+    // This is the directory for the guild's filesystem
+    // This has to be an absolute path
+    "explorer_directory": "C:/Users/Geoxor/Documents/GitHub/taku.server/uploads/explorer",
   }
   ```
 - Run `npm run prod` again to startup your guild
